@@ -29,6 +29,17 @@ cp .env.example .env
 ```
 - Edit the .env file to set your API keys and other details.
 
+### 3. Email Configuration
+To send emails, this project uses PHPMailer. Ensure that:
+
+You have enabled "Less secure app access" in your Google account settings if using Gmail.
+You are using an App Password if you have Two-Factor Authentication (2FA) enabled.
+
+### Acknowledgments
+- PHPMailer for email handling.
+- GROQ API for providing weather data.
+- vlucas/phpdotenv for managing environment variables.
+
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
