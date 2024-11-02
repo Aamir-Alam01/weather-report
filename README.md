@@ -2,6 +2,10 @@
 
 This project is a weather reporting application that provides current weather conditions based on user-provided locations. It utilizes the GROQ API for data retrieval and sends weather reports via email.
 
+## Screenshots
+![ Screenshot](screenshots/ss1.png)
+![ Screenshot](screenshots/ss2.png)
+
 ## Features
 
 - Fetches current weather data including temperature, humidity, wind speed, and cloud coverage.
